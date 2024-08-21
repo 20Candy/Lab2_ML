@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar los archivos del proyecto al directorio de trabajo del contenedor
 COPY pipeline.py .
-COPY dataset/test.csv .
+COPY dataset/test.csv dataset/
 COPY models/modelo_best.pkl models/
 
 # Comando para ejecutar el script principal

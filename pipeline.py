@@ -34,7 +34,7 @@ from sklearn.preprocessing import FunctionTransformer
 # ------------------------------------------
 
 # Cargar dataset
-data = pd.read_csv('./datasets/test.csv')
+data = pd.read_csv('./dataset/test.csv')
 
 
 # Definir las columnas numéricas y categóricas
